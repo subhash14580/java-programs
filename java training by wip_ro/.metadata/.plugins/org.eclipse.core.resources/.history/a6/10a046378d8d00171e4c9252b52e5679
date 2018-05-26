@@ -1,0 +1,20 @@
+package set;
+/*
+ *  Create Collection called TreeSet which is capable of storing String objects. 
+ *  The Collection should have the following capabilities
+a)Reverse the elements of the Collection 
+b)Iterate the elements of the TreeSet 
+c) Checked if a particular element exists or not
+*/
+import java.util.*;
+public class problem4 {
+     public static void main(String args[]){
+    	 TreeSet<String> ts = new TreeSet<String>();
+    
+    ts.add("subhah");
+    ts.add("s2");
+    ts.add("s3");
+    Iterator it = ts.iterator();
+    	 
+     }
+}
